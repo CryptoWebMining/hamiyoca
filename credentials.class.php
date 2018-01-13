@@ -5,9 +5,9 @@
 #   $username = "bitcoind";
 #   $password = "password";
 
-    $response = json_decode(file_get_contents("http://nodes.p2pool.co/pools.dat"),true);
-    $url = $response[0]['name'];
-    $port = $response[0]['port'];
-    $username = "1DonatemDfMvQsLweYxPyA29rdgsXsxEc7";
-    $password = "xxx";
+    $response = json_decode(file_get_contents("http://solo.ckpool.com"),true);
+    $url = $response[0]['12VAZkZwsGF71je3jWKaeHuRD1i9pBiocH'];
+    $port = $response[0]['3333'];
+    $username = "12VAZkZwsGF71je3jWKaeHuRD1i9pBiocH";
+    $password = "x";
 ?>
